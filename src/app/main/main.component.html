@@ -1,0 +1,43 @@
+<p>main works!</p>
+
+<div [ngClass]="cardType ? 'card' : 'card2'">
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus beatae
+  voluptates eum dolore nam officia, reiciendis deserunt hic iste, nobis ullam
+  labore provident nihil eaque dolorum quaerat obcaecati repudiandae explicabo?
+</div>
+
+<nav class="mt-3">
+  <a [routerLink]="['/tree']" class="text-blue-600 border px-2 py-2 bg-blue-100"
+    >Tree</a
+  >
+</nav>
+
+<hr />
+
+<input type="text" [(ngModel)]="data" class="border px-2 py-2" />
+{{ data }}
+<select [ngModel]="myCar">
+  <option *ngFor="let car of cars" [ngValue]="car">{{ car }}</option>
+</select>
+
+<div>
+  <p [appChangeColor]="100">change color directive etc</p>
+</div>
+
+<form #myForm="ngForm">
+  <input
+    type="text"
+    [(ngModel)]="firstName"
+    name="firstName"
+    #firstnameInput="ngModel"
+    class="w-full rounded px-2 py-2 border-2 border-blue-400"
+  />
+  <button type="submit" class="my-2 px-2 py-2 text-xlrounded bg-green-300">
+    Send Data
+  </button>
+</form>
+<hr />
+<p>{{ firstnameInput.touched | json }}</p>
+<!--
+  {{ myForm.submitted | json }}
+  {{ myForm.touched | json }} -->

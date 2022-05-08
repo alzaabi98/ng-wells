@@ -1,0 +1,77 @@
+{
+  "wells": [
+    {
+      "id": 1,
+      "title": "well-001",
+      "valves": [
+        {
+          "id": 1,
+          "name": "low-master-valve",
+          "status": false
+        },
+        {
+          "id": 2,
+          "name": "upper-master-valve",
+          "status": true
+        },
+        {
+          "id": 3,
+          "name": "swab-valve",
+          "status": true
+        },
+        {
+          "id": 4,
+          "name": "kill-wing-valve",
+          "status": true
+        },
+        {
+          "id": 5,
+          "name": "primary-wing-valve",
+          "status": false
+        }
+      ],
+      "valves[1].status": false
+    },
+    {
+      "id": 2,
+      "title": "well-002",
+      "valves": [
+        {
+          "id": 1,
+          "name": "low-master-valve",
+          "status": true
+        },
+        {
+          "id": 2,
+          "name": "upper-master-valve",
+          "status": true
+        },
+        {
+          "id": 3,
+          "name": "swab-valve",
+          "status": true
+        },
+        {
+          "id": 4,
+          "name": "kill-wing-valve",
+          "status": true
+        },
+        {
+          "id": 5,
+          "name": "primary-wing-valve",
+          "status": false
+        }
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

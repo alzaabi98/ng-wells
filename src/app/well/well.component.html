@@ -1,0 +1,784 @@
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-3">
+      <table class="table table-bordered" *ngIf="well">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Title</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">{{ well.id }}</th>
+            <td>{{ well.title }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="col-md-6">
+      <svg
+        *ngIf="well"
+        xmlns="http://www.w3.org/2000/svg"
+        width="300"
+        height="400"
+        viewBox="0 0 667 1082.378"
+      >
+        <g
+          id="Rectangle_21"
+          data-name="Rectangle 21"
+          transform="translate(387 532.378) rotate(90)"
+          fill="#fff"
+          stroke="#000"
+          stroke-width="4"
+        >
+          <rect width="207" height="110" rx="20" stroke="none" />
+          <rect x="2" y="2" width="203" height="106" rx="18" fill="none" />
+        </g>
+        <g
+          id="Rectangle_18"
+          data-name="Rectangle 18"
+          transform="translate(564 795.378) rotate(90)"
+          fill="#fff"
+          stroke="#000"
+          stroke-width="4"
+        >
+          <rect width="89" height="53" rx="21" stroke="none" />
+          <rect x="2" y="2" width="85" height="49" rx="19" fill="none" />
+        </g>
+        <g
+          id="Rectangle_17"
+          data-name="Rectangle 17"
+          transform="translate(550.235 750) rotate(90)"
+          fill="none"
+          stroke="#000"
+          stroke-width="4"
+        >
+          <rect width="58.133" height="26.471" rx="13.235" stroke="none" />
+          <rect
+            x="2"
+            y="2"
+            width="54.133"
+            height="22.471"
+            rx="11.235"
+            fill="none"
+          />
+        </g>
+        <g
+          id="Rectangle_16"
+          data-name="Rectangle 16"
+          transform="translate(161 750) rotate(90)"
+          fill="none"
+          stroke="#000"
+          stroke-width="4"
+        >
+          <rect width="58.133" height="26.471" rx="13.235" stroke="none" />
+          <rect
+            x="2"
+            y="2"
+            width="54.133"
+            height="22.471"
+            rx="11.235"
+            fill="none"
+          />
+        </g>
+        <g
+          id="Rectangle_15"
+          data-name="Rectangle 15"
+          transform="translate(174 793.378) rotate(90)"
+          fill="#fff"
+          stroke="#000"
+          stroke-width="4"
+        >
+          <rect width="89" height="53" rx="21" stroke="none" />
+          <rect x="2" y="2" width="85" height="49" rx="19" fill="none" />
+        </g>
+        <g
+          id="Rectangle_3"
+          data-name="Rectangle 3"
+          transform="translate(368.471 111.378) rotate(90)"
+          fill="none"
+          stroke="#000"
+          stroke-width="4"
+        >
+          <rect width="458.679" height="78.471" rx="36" stroke="none" />
+          <rect
+            x="2"
+            y="2"
+            width="454.679"
+            height="74.471"
+            rx="34"
+            fill="none"
+          />
+        </g>
+        <g
+          id="Rectangle_1"
+          data-name="Rectangle 1"
+          transform="translate(9 312.378)"
+          fill="none"
+          stroke="#000"
+          stroke-width="4"
+        >
+          <rect width="658" height="44" rx="22" stroke="none" />
+          <rect x="2" y="2" width="654" height="40" rx="20" fill="none" />
+        </g>
+        <g
+          id="Rectangle_2"
+          data-name="Rectangle 2"
+          transform="translate(237 189.378)"
+          fill="#fff"
+          stroke="#000"
+          stroke-width="4"
+        >
+          <rect width="197" height="53" rx="20" stroke="none" />
+          <rect x="2" y="2" width="193" height="49" rx="18" fill="none" />
+        </g>
+        <g
+          id="Rectangle_4"
+          data-name="Rectangle 4"
+          transform="translate(359.471) rotate(90)"
+          fill="none"
+          stroke="#000"
+          stroke-width="4"
+        >
+          <rect width="141.133" height="57.471" rx="28.735" stroke="none" />
+          <rect
+            x="2"
+            y="2"
+            width="137.133"
+            height="53.471"
+            rx="26.735"
+            fill="none"
+          />
+        </g>
+        <g
+          id="Group_1"
+          data-name="Group 1"
+          transform="translate(-541 -95.622)"
+          class="valve"
+        >
+          <g
+            id="upper-master-valve"
+            [attr.fill]="
+              statusByValveName('upper-master-valve')
+                ? enabledColor
+                : disabledColor
+            "
+            (click)="changeStatusByName('upper-master-valve')"
+            transform="translate(810 146)"
+            fill="#ededed"
+            stroke="#000"
+            stroke-width="4"
+          >
+            <circle cx="64" cy="64" r="64" stroke="none" />
+            <circle cx="64" cy="64" r="62" fill="none" />
+          </g>
+          <g
+            id="Ellipse_6"
+            data-name="Ellipse 6"
+            transform="translate(849 186)"
+            fill="#fff"
+            stroke="#000"
+            stroke-width="4"
+          >
+            <ellipse cx="25" cy="24.5" rx="25" ry="24.5" stroke="none" />
+            <ellipse cx="25" cy="24.5" rx="23" ry="22.5" fill="none" />
+          </g>
+          <line
+            id="Line_1"
+            data-name="Line 1"
+            x1="1"
+            y2="40"
+            transform="translate(885.5 150.5)"
+            fill="none"
+            stroke="#000"
+            stroke-width="4"
+          />
+          <line
+            id="Line_2"
+            data-name="Line 2"
+            y2="40"
+            transform="translate(863.5 150.5)"
+            fill="none"
+            stroke="#000"
+            stroke-width="4"
+          />
+          <line
+            id="Line_3"
+            data-name="Line 3"
+            x2="33"
+            y2="25"
+            transform="translate(896.5 210.5)"
+            fill="none"
+            stroke="#000"
+            stroke-width="4"
+          />
+          <line
+            id="Line_4"
+            data-name="Line 4"
+            x2="31"
+            y2="25"
+            transform="translate(890.5 227.5)"
+            fill="none"
+            stroke="#000"
+            stroke-width="4"
+          />
+          <line
+            id="Line_5"
+            data-name="Line 5"
+            x1="33"
+            y2="27"
+            transform="translate(818.5 210.5)"
+            fill="none"
+            stroke="#000"
+            stroke-width="4"
+          />
+          <line
+            id="Line_6"
+            data-name="Line 6"
+            x1="30"
+            y2="25"
+            transform="translate(831.5 230.5)"
+            fill="none"
+            stroke="#000"
+            stroke-width="4"
+          />
+        </g>
+        <g
+          id="Group_2"
+          data-name="Group 2"
+          transform="translate(-545 119.378)"
+          class="valve"
+        >
+          <g
+            id="primary-wing-valve"
+            [attr.fill]="
+              statusByValveName('primary-wing-valve')
+                ? enabledColor
+                : disabledColor
+            "
+            (click)="changeStatusByName('primary-wing-valve')"
+            transform="translate(810 146)"
+            fill="#ededed"
+            stroke="#000"
+            stroke-width="4"
+          >
+            <circle cx="64" cy="64" r="64" stroke="none" />
+            <circle cx="64" cy="64" r="62" fill="none" />
+          </g>
+          <g
+            id="Ellipse_6-2"
+            data-name="Ellipse 6"
+            transform="translate(849 186)"
+            fill="#fff"
+            stroke="#000"
+            stroke-width="4"
+          >
+            <ellipse cx="25" cy="24.5" rx="25" ry="24.5" stroke="none" />
+            <ellipse cx="25" cy="24.5" rx="23" ry="22.5" fill="none" />
+          </g>
+          <line
+            id="Line_1-2"
+            data-name="Line 1"
+            x1="1"
+            y2="40"
+            transform="translate(885.5 150.5)"
+            fill="none"
+            stroke="#000"
+            stroke-width="4"
+          />
+          <line
+            id="Line_2-2"
+            data-name="Line 2"
+            y2="40"
+            transform="translate(863.5 150.5)"
+            fill="none"
+            stroke="#000"
+            stroke-width="4"
+          />
+          <line
+            id="Line_3-2"
+            data-name="Line 3"
+            x2="33"
+            y2="25"
+            transform="translate(896.5 210.5)"
+            fill="none"
+            stroke="#000"
+            stroke-width="4"
+          />
+          <line
+            id="Line_4-2"
+            data-name="Line 4"
+            x2="31"
+            y2="25"
+            transform="translate(890.5 227.5)"
+            fill="none"
+            stroke="#000"
+            stroke-width="4"
+          />
+          <line
+            id="Line_5-2"
+            data-name="Line 5"
+            x1="33"
+            y2="27"
+            transform="translate(818.5 210.5)"
+            fill="none"
+            stroke="#000"
+            stroke-width="4"
+          />
+          <line
+            id="Line_6-2"
+            data-name="Line 6"
+            x1="30"
+            y2="25"
+            transform="translate(831.5 230.5)"
+            fill="none"
+            stroke="#000"
+            stroke-width="4"
+          />
+        </g>
+        <g
+          id="Group_3"
+          data-name="Group 3"
+          transform="translate(-334 124.378)"
+          class="valve"
+        >
+          <g
+            id="low-master-valve"
+            [attr.fill]="
+              statusByValveName('low-master-valve')
+                ? enabledColor
+                : disabledColor
+            "
+            (click)="changeStatusByName('low-master-valve')"
+            transform="translate(810 146)"
+            fill="#ededed"
+            stroke="#000"
+            stroke-width="4"
+          >
+            <circle cx="64" cy="64" r="64" stroke="none" />
+            <circle cx="64" cy="64" r="62" fill="none" />
+          </g>
+          <g
+            id="Ellipse_6-3"
+            data-name="Ellipse 6"
+            transform="translate(849 186)"
+            fill="#fff"
+            stroke="#000"
+            stroke-width="4"
+          >
+            <ellipse cx="25" cy="24.5" rx="25" ry="24.5" stroke="none" />
+            <ellipse cx="25" cy="24.5" rx="23" ry="22.5" fill="none" />
+          </g>
+          <line
+            id="Line_1-3"
+            data-name="Line 1"
+            x1="1"
+            y2="40"
+            transform="translate(885.5 150.5)"
+            fill="none"
+            stroke="#000"
+            stroke-width="4"
+          />
+          <line
+            id="Line_2-3"
+            data-name="Line 2"
+            y2="40"
+            transform="translate(863.5 150.5)"
+            fill="none"
+            stroke="#000"
+            stroke-width="4"
+          />
+          <line
+            id="Line_3-3"
+            data-name="Line 3"
+            x2="33"
+            y2="25"
+            transform="translate(896.5 210.5)"
+            fill="none"
+            stroke="#000"
+            stroke-width="4"
+          />
+          <line
+            id="Line_4-3"
+            data-name="Line 4"
+            x2="31"
+            y2="25"
+            transform="translate(890.5 227.5)"
+            fill="none"
+            stroke="#000"
+            stroke-width="4"
+          />
+          <line
+            id="Line_5-3"
+            data-name="Line 5"
+            x1="33"
+            y2="27"
+            transform="translate(818.5 210.5)"
+            fill="none"
+            stroke="#000"
+            stroke-width="4"
+          />
+          <line
+            id="Line_6-3"
+            data-name="Line 6"
+            x1="30"
+            y2="25"
+            transform="translate(831.5 230.5)"
+            fill="none"
+            stroke="#000"
+            stroke-width="4"
+          />
+        </g>
+        <g
+          id="Group_4"
+          data-name="Group 4"
+          transform="translate(-724 124.378)"
+          class="valve"
+        >
+          <g
+            id="swab-valve"
+            [attr.fill]="
+              statusByValveName('swab-valve') ? enabledColor : disabledColor
+            "
+            (click)="changeStatusByName('swab-valve')"
+            transform="translate(810 146)"
+            fill="#ededed"
+            stroke="#000"
+            stroke-width="4"
+          >
+            <circle cx="64" cy="64" r="64" stroke="none" />
+            <circle cx="64" cy="64" r="62" fill="none" />
+          </g>
+          <g
+            id="Ellipse_6-4"
+            data-name="Ellipse 6"
+            transform="translate(849 186)"
+            fill="#fff"
+            stroke="#000"
+            stroke-width="4"
+          >
+            <ellipse cx="25" cy="24.5" rx="25" ry="24.5" stroke="none" />
+            <ellipse cx="25" cy="24.5" rx="23" ry="22.5" fill="none" />
+          </g>
+          <line
+            id="Line_1-4"
+            data-name="Line 1"
+            x1="1"
+            y2="40"
+            transform="translate(885.5 150.5)"
+            fill="none"
+            stroke="#000"
+            stroke-width="4"
+          />
+          <line
+            id="Line_2-4"
+            data-name="Line 2"
+            y2="40"
+            transform="translate(863.5 150.5)"
+            fill="none"
+            stroke="#000"
+            stroke-width="4"
+          />
+          <line
+            id="Line_3-4"
+            data-name="Line 3"
+            x2="33"
+            y2="25"
+            transform="translate(896.5 210.5)"
+            fill="none"
+            stroke="#000"
+            stroke-width="4"
+          />
+          <line
+            id="Line_4-4"
+            data-name="Line 4"
+            x2="31"
+            y2="25"
+            transform="translate(890.5 227.5)"
+            fill="none"
+            stroke="#000"
+            stroke-width="4"
+          />
+          <line
+            id="Line_5-4"
+            data-name="Line 5"
+            x1="33"
+            y2="27"
+            transform="translate(818.5 210.5)"
+            fill="none"
+            stroke="#000"
+            stroke-width="4"
+          />
+          <line
+            id="Line_6-4"
+            data-name="Line 6"
+            x1="30"
+            y2="25"
+            transform="translate(831.5 230.5)"
+            fill="none"
+            stroke="#000"
+            stroke-width="4"
+          />
+        </g>
+        <g
+          id="Group_5"
+          data-name="Group 5"
+          transform="translate(-541 313.378)"
+          class="valve"
+        >
+          <g
+            id="kill-wing-valve"
+            [attr.fill]="
+              statusByValveName('kill-wing-valve')
+                ? enabledColor
+                : disabledColor
+            "
+            (click)="changeStatusByName('kill-wing-valve')"
+            transform="translate(810 146)"
+            fill="#ededed"
+            stroke="#000"
+            stroke-width="4"
+          >
+            <circle cx="64" cy="64" r="64" stroke="none" />
+            <circle cx="64" cy="64" r="62" fill="none" />
+          </g>
+          <g
+            id="Ellipse_6-5"
+            data-name="Ellipse 6"
+            transform="translate(849 186)"
+            fill="#fff"
+            stroke="#000"
+            stroke-width="4"
+          >
+            <ellipse cx="25" cy="24.5" rx="25" ry="24.5" stroke="none" />
+            <ellipse cx="25" cy="24.5" rx="23" ry="22.5" fill="none" />
+          </g>
+          <line
+            id="Line_1-5"
+            data-name="Line 1"
+            x1="1"
+            y2="40"
+            transform="translate(885.5 150.5)"
+            fill="none"
+            stroke="#000"
+            stroke-width="4"
+          />
+          <line
+            id="Line_2-5"
+            data-name="Line 2"
+            y2="40"
+            transform="translate(863.5 150.5)"
+            fill="none"
+            stroke="#000"
+            stroke-width="4"
+          />
+          <line
+            id="Line_3-5"
+            data-name="Line 3"
+            x2="33"
+            y2="25"
+            transform="translate(896.5 210.5)"
+            fill="none"
+            stroke="#000"
+            stroke-width="4"
+          />
+          <line
+            id="Line_4-5"
+            data-name="Line 4"
+            x2="31"
+            y2="25"
+            transform="translate(890.5 227.5)"
+            fill="none"
+            stroke="#000"
+            stroke-width="4"
+          />
+          <line
+            id="Line_5-5"
+            data-name="Line 5"
+            x1="33"
+            y2="27"
+            transform="translate(818.5 210.5)"
+            fill="none"
+            stroke="#000"
+            stroke-width="4"
+          />
+          <line
+            id="Line_6-5"
+            data-name="Line 6"
+            x1="30"
+            y2="25"
+            transform="translate(831.5 230.5)"
+            fill="none"
+            stroke="#000"
+            stroke-width="4"
+          />
+        </g>
+        <g
+          id="Rectangle_6"
+          data-name="Rectangle 6"
+          transform="translate(0 904.378)"
+          fill="none"
+          stroke="#000"
+          stroke-width="4"
+        >
+          <rect width="658" height="59" rx="29.5" stroke="none" />
+          <rect x="2" y="2" width="654" height="55" rx="27.5" fill="none" />
+        </g>
+        <g
+          id="Rectangle_7"
+          data-name="Rectangle 7"
+          transform="translate(111 867.378) rotate(90)"
+          fill="#fff"
+          stroke="#000"
+          stroke-width="4"
+        >
+          <rect width="118" height="53" rx="20" stroke="none" />
+          <rect x="2" y="2" width="114" height="49" rx="18" fill="none" />
+        </g>
+        <g
+          id="Rectangle_9"
+          data-name="Rectangle 9"
+          transform="translate(408 800.378) rotate(90)"
+          fill="#fff"
+          stroke="#000"
+          stroke-width="4"
+        >
+          <rect width="207" height="143" rx="20" stroke="none" />
+          <rect x="2" y="2" width="203" height="139" rx="18" fill="none" />
+        </g>
+        <g
+          id="Rectangle_8"
+          data-name="Rectangle 8"
+          transform="translate(236 867.378) rotate(90)"
+          fill="#fff"
+          stroke="#000"
+          stroke-width="4"
+        >
+          <rect width="118" height="53" rx="20" stroke="none" />
+          <rect x="2" y="2" width="114" height="49" rx="18" fill="none" />
+        </g>
+        <g
+          id="Rectangle_10"
+          data-name="Rectangle 10"
+          transform="translate(218 1007.378)"
+          fill="none"
+          stroke="#000"
+          stroke-width="4"
+        >
+          <rect width="250" height="75" rx="17" stroke="none" />
+          <rect x="2" y="2" width="246" height="71" rx="15" fill="none" />
+        </g>
+        <g
+          id="Rectangle_13"
+          data-name="Rectangle 13"
+          transform="translate(503 867.378) rotate(90)"
+          fill="#fff"
+          stroke="#000"
+          stroke-width="4"
+        >
+          <rect width="118" height="53" rx="20" stroke="none" />
+          <rect x="2" y="2" width="114" height="49" rx="18" fill="none" />
+        </g>
+        <g
+          id="Rectangle_14"
+          data-name="Rectangle 14"
+          transform="translate(628 867.378) rotate(90)"
+          fill="#fff"
+          stroke="#000"
+          stroke-width="4"
+        >
+          <rect width="118" height="53" rx="20" stroke="none" />
+          <rect x="2" y="2" width="114" height="49" rx="18" fill="none" />
+        </g>
+        <g
+          id="Ellipse_7"
+          data-name="Ellipse 7"
+          transform="translate(111 839.378)"
+          fill="#fff"
+          stroke="#000"
+          stroke-width="4"
+        >
+          <circle cx="36" cy="36" r="36" stroke="none" />
+          <circle cx="36" cy="36" r="34" fill="none" />
+        </g>
+        <g
+          id="Ellipse_8"
+          data-name="Ellipse 8"
+          transform="translate(501 839.378)"
+          fill="#fff"
+          stroke="#000"
+          stroke-width="4"
+        >
+          <circle cx="36" cy="36" r="36" stroke="none" />
+          <circle cx="36" cy="36" r="34" fill="none" />
+        </g>
+        <g
+          id="Rectangle_11"
+          data-name="Rectangle 11"
+          transform="translate(67 786.378)"
+          fill="#fff"
+          stroke="#000"
+          stroke-width="4"
+        >
+          <rect width="161" height="29" rx="14.5" stroke="none" />
+          <rect x="2" y="2" width="157" height="25" rx="12.5" fill="none" />
+        </g>
+        <g
+          id="Rectangle_12"
+          data-name="Rectangle 12"
+          transform="translate(458 786.378)"
+          fill="#fff"
+          stroke="#000"
+          stroke-width="4"
+        >
+          <rect width="161" height="29" rx="14.5" stroke="none" />
+          <rect x="2" y="2" width="157" height="25" rx="12.5" fill="none" />
+        </g>
+        <g
+          id="Rectangle_19"
+          data-name="Rectangle 19"
+          transform="translate(429 738.378) rotate(90)"
+          fill="#fff"
+          stroke="#000"
+          stroke-width="4"
+        >
+          <rect width="77" height="193" rx="20" stroke="none" />
+          <rect x="2" y="2" width="73" height="189" rx="18" fill="none" />
+        </g>
+        <g
+          id="Rectangle_20"
+          data-name="Rectangle 20"
+          transform="translate(253 587.378)"
+          fill="#fff"
+          stroke="#000"
+          stroke-width="4"
+        >
+          <rect width="161" height="48" rx="17" stroke="none" />
+          <rect x="2" y="2" width="157" height="44" rx="15" fill="none" />
+        </g>
+      </svg>
+    </div>
+  </div>
+
+  <div class="row" *ngIf="well">
+    <div class="col-md-4 mt-2" *ngFor="let valve of well.valves">
+      <div class="card" style="width: 18rem">
+        <div class="card-body">
+          <h5 class="card-title">{{ valve.name }}</h5>
+          <p
+            class="card-text"
+            [ngClass]="valve.status ? 'text-success' : 'text-danger'"
+          >
+            {{ valve.status }}
+          </p>
+          <a
+            (click)="changeStatus(valve.id, valve.name)"
+            class="btn btn-primary"
+            >Change Status</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
